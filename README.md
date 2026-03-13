@@ -4,7 +4,8 @@ A premium, glassmorphic Pomodoro and task tracker built purely with [Neutralinoj
 
 FocusForge was built as a sample project for the GSoC 2026 Neutralinojs application to demonstrate deep understanding of the Neutralinojs architecture and native APIs.
 
-![App Screenshot 1 goes here](demo.png)
+<img width="408" height="684" alt="image" src="https://github.com/user-attachments/assets/66647322-2545-40f5-9669-f06c12de393c" />
+
 
 ## ✨ Features
 
