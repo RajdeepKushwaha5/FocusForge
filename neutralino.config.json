@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
+  "applicationId": "dev.focusforge.app",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "port": 0,
+  "documentRoot": "/resources/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "tokenSecurity": "one-time",
+  "logging": {
+    "enabled": true,
+    "writeToLogFile": true
+  },
+  "nativeAllowList": [
+    "app.*",
+    "os.*",
+    "window.*",
+    "clipboard.*",
+    "storage.*",
+    "filesystem.*",
+    "debug.log",
+    "events.*"
+  ],
+  "modes": {
+    "window": {
+      "title": "FocusForge",
+      "width": 420,
+      "height": 680,
+      "minWidth": 380,
+      "minHeight": 600,
+      "center": true,
+      "fullScreen": false,
+      "alwaysOnTop": true,
+      "icon": "/resources/icons/appIcon.png",
+      "enableInspector": true,
+      "borderless": true,
+      "maximize": false,
+      "hidden": false,
+      "resizable": false,
+      "exitProcessOnClose": false
+    }
+  },
+  "cli": {
+    "binaryName": "focusforge",
+    "resourcesPath": "/resources/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/resources/js/neutralino.js",
+    "binaryVersion": "6.5.0",
+    "clientVersion": "6.5.0"
+  }
+}
